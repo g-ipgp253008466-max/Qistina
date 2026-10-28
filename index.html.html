@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Nota interaktif tentang perkembangan sistem pendidikan di Malaysia, zaman British, Sabah, Sarawak, laporan pendidikan, tokoh dan teknologi digital.">
+<title>Diari Sejarah — Sistem Pendidikan di Malaysia</title>
+<style>
+:root{
+ --paper:#f4e8cc;--paper-light:#fff8e9;--paper-deep:#e8d5ae;--ink:#503522;--ink-soft:#76563d;
+ --brown:#825b3b;--brown-dark:#5d3d28;--rust:#a85e43;--sage:#879578;--sage-light:#e6eadb;
+ --gold:#c69b50;--line:#d9c49d;--shadow:0 12px 32px rgba(77,49,27,.12);
+ --font-scale:1;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+body{margin:0;color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:calc(16px * var(--font-scale));line-height:1.72;
+ background-color:var(--paper);background-image:radial-gradient(ellipse at 15% 15%,rgba(255,255,255,.48),transparent 35%),radial-gradient(ellipse at 90% 75%,rgba(183,143,85,.10),transparent 34%),repeating-linear-gradient(0deg,rgba(112,79,42,.025) 0,rgba(112,79,42,.025) 1px,transparent 1px,transparent 5px)}
+button,input{font:inherit}button{cursor:pointer}a{color:inherit}
+.skip-link{position:absolute;left:-999px;top:8px;background:var(--brown-dark);color:white;padding:10px 14px;z-index:100;border-radius:8px}.skip-link:focus{left:8px}
+.progress-top{height:4px;background:#e1d0ae;position:fixed;top:0;left:0;right:0;z-index:99}.progress-top span{display:block;height:100%;width:0;background:var(--rust)}
+.site-header{position:sticky;top:4px;z-index:30;background:rgba(248,238,215,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.header-inner{max-width:1240px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:max-content}.brand-mark{width:48px;height:48px;display:grid;place-items:center;background:#e0c58f;border:2px solid var(--brown);border-radius:50%;font-size:25px;box-shadow:inset 0 0 0 4px #f3e4c3}.brand-name{font-weight:bold;letter-spacing:.04em;font-size:1.05rem;line-height:1.2}.brand-name small{display:block;font-weight:normal;font-size:.72rem;letter-spacing:.16em;color:var(--ink-soft);margin-top:4px}
+.nav{display:flex;align-items:center;gap:5px}.nav a{text-decoration:none;padding:9px 11px;border-radius:8px;font-size:.88rem;font-weight:bold;color:var(--ink-soft)}.nav a:hover,.nav a:focus-visible{background:#e9d9b9;color:var(--brown-dark)}
+.header-actions{display:flex;align-items:center;gap:7px}.icon-btn,.menu-btn{border:1px solid var(--line);background:var(--paper-light);color:var(--ink);border-radius:9px;padding:8px 11px;font-weight:bold}.menu-btn{display:none}
+.container{width:min(1160px,92%);margin:auto}
+.hero{padding:44px 0 28px}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:30px;align-items:center}
+.eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px dashed var(--rust);color:var(--rust);padding:5px 12px;border-radius:999px;text-transform:uppercase;letter-spacing:.12em;font-size:.74rem;font-weight:bold}
+h1,h2,h3,h4{line-height:1.25}h1{font-size:clamp(2.4rem,5.5vw,4.7rem);letter-spacing:-.045em;margin:17px 0 12px;color:var(--brown-dark)}h1 span{color:var(--rust);font-style:italic}.hero p{max-width:680px;color:var(--ink-soft);font-size:1.08rem}
+.hero-buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;border:1px solid var(--brown-dark);border-radius:9px;padding:11px 16px;background:var(--brown-dark);color:#fff8e9;font-weight:bold;text-decoration:none;box-shadow:0 3px 0 #3f291b;transition:transform .15s}.btn:hover{transform:translateY(-2px)}.btn.secondary{background:var(--paper-light);color:var(--brown-dark);box-shadow:none;border-color:var(--line)}
+.hero-illustration{min-height:315px;position:relative;display:grid;place-items:center}.sunburst{position:absolute;width:280px;height:280px;background:#e6d1a5;border-radius:50%;opacity:.72}.storybook{position:relative;width:min(320px,90%);padding:22px 24px 26px;background:var(--paper-light);border:2px solid var(--brown);border-radius:6px 18px 18px 6px;box-shadow:9px 10px 0 #c4a779,var(--shadow);transform:rotate(2deg);text-align:center}.storybook:before{content:"";position:absolute;left:15px;top:0;bottom:0;border-left:2px solid #ddc9a4}.story-doodle{font-size:3.8rem;line-height:1.2}.storybook h2{font-size:1.55rem;margin:10px 0 6px}.storybook p{font-size:.91rem;margin:0;color:var(--ink-soft)}.stamp{display:inline-block;margin-top:14px;border:2px dashed var(--rust);color:var(--rust);padding:4px 10px;transform:rotate(-5deg);font-size:.72rem;letter-spacing:.12em;font-weight:bold}.cartoon{position:absolute;font-size:2.4rem;filter:drop-shadow(0 4px 2px #8b6a3b22);animation:float 4s ease-in-out infinite}.cartoon.one{top:10px;right:10px}.cartoon.two{bottom:12px;left:0;animation-delay:-1.5s}.cartoon.three{right:0;bottom:25px;animation-delay:-2.4s}@keyframes float{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-8px) rotate(4deg)}}
+.quick-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px auto 40px}.fact{background:rgba(255,248,233,.8);border:1px solid var(--line);padding:14px;border-radius:12px;display:flex;gap:12px;align-items:center}.fact-icon{font-size:1.7rem}.fact strong{display:block;font-size:.95rem}.fact small{display:block;color:var(--ink-soft);font-size:.78rem}
+.layout{display:grid;grid-template-columns:270px minmax(0,1fr);gap:24px;align-items:start;padding-bottom:55px}
+.sidebar{position:sticky;top:96px;background:rgba(255,248,233,.82);border:1px solid var(--line);border-radius:14px;padding:17px;max-height:calc(100vh - 115px);overflow:auto;box-shadow:0 5px 18px rgba(77,49,27,.06)}
+.sidebar-title{font-size:.76rem;letter-spacing:.15em;text-transform:uppercase;color:var(--rust);font-weight:bold;margin:2px 0 10px}.search-wrap{position:relative;margin-bottom:15px}.search-wrap input{width:100%;padding:10px 11px;border:1px solid var(--line);border-radius:8px;background:#fffdf6;color:var(--ink);outline-offset:3px}.toc{display:flex;flex-direction:column;gap:4px}.toc a{display:block;text-decoration:none;padding:8px 10px;border-radius:7px;color:var(--ink-soft);font-size:.9rem;line-height:1.35}.toc a:hover,.toc a.active{background:#e8d7b6;color:var(--brown-dark);font-weight:bold}.toc .sub{padding-left:24px;font-size:.83rem}.sidebar-note{margin-top:16px;padding:12px;background:#e7eadb;border-radius:9px;color:#526149;font-size:.82rem}
+.content{min-width:0}.content-heading{padding:0 0 17px;border-bottom:2px solid var(--line);margin-bottom:20px}.content-heading .eyebrow{margin-bottom:9px}.content-heading h2{font-size:clamp(1.8rem,3.5vw,2.7rem);margin:0 0 8px}.content-heading p{margin:0;color:var(--ink-soft)}
+.note-section{background:rgba(255,249,235,.88);border:1px solid var(--line);border-radius:14px;margin:0 0 17px;overflow:hidden;box-shadow:0 5px 15px rgba(77,49,27,.045);scroll-margin-top:105px}
+.section-toggle{width:100%;display:flex;align-items:center;gap:13px;text-align:left;background:transparent;color:var(--ink);padding:17px 19px;border:0}.section-icon{width:43px;height:43px;flex:0 0 43px;display:grid;place-items:center;background:#e8d7b6;border:1px solid #d3bc91;border-radius:10px;font-size:1.35rem}.section-title{flex:1}.section-title strong{display:block;font-size:1.13rem}.section-title small{display:block;color:var(--ink-soft);font-size:.8rem;margin-top:3px}.chevron{font-size:1.25rem;color:var(--rust);transition:transform .2s}.note-section.open .chevron{transform:rotate(180deg)}.section-body{display:none;padding:0 21px 22px;border-top:1px dashed var(--line)}.note-section.open .section-body{display:block}.section-body h3{font-size:1.2rem;color:var(--brown-dark);margin:21px 0 8px}.section-body h4{font-size:1.02rem;margin:18px 0 5px;color:var(--rust)}.section-body p{margin:10px 0}.section-body ul,.section-body ol{padding-left:24px;margin:8px 0 14px}.section-body li{padding-left:3px;margin:5px 0}.section-body li::marker{color:var(--rust)}.callout{background:#f1e5c9;border-left:4px solid var(--gold);padding:13px 15px;margin:14px 0;border-radius:0 8px 8px 0}.callout strong{color:var(--brown-dark)}.subcard-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:13px 0}.subcard{border:1px solid var(--line);background:#fffaf0;border-radius:10px;padding:14px}.subcard h4{margin:0 0 6px!important}.subcard p{font-size:.94rem}.subcard ul{margin-bottom:0}.tag{display:inline-block;font-family:Arial,sans-serif;font-size:.7rem;letter-spacing:.07em;text-transform:uppercase;background:#e7eadb;color:#526149;border-radius:5px;padding:3px 7px;margin-bottom:7px}
+.timeline{border-left:3px solid #c6a66b;margin:15px 0 15px 8px;padding-left:20px}.timeline-item{position:relative;margin:0 0 18px}.timeline-item:before{content:"";position:absolute;left:-28px;top:6px;width:11px;height:11px;border:2px solid var(--brown);background:var(--paper-light);border-radius:50%}.timeline-item strong{color:var(--rust)}
+.people{display:grid;grid-template-columns:1fr 1fr;gap:13px}.person{border:1px solid var(--line);border-radius:11px;background:#fffaf0;padding:15px}.person .avatar{font-size:2rem;float:right;margin-left:8px}.person h4{margin:0 0 8px!important}.person p{font-size:.94rem}.person ul{font-size:.94rem}
+.endnote{text-align:center;padding:28px 20px;background:#e6eadb;border:1px dashed #a8b69a;border-radius:13px;margin-top:22px}.endnote .emoji{font-size:2.4rem}.endnote h3{margin:7px 0}.endnote p{max-width:700px;margin:0 auto;color:#526149}
+.backtop{position:fixed;right:20px;bottom:20px;z-index:25;background:var(--brown-dark);color:#fff8e9;border:0;border-radius:50%;width:46px;height:46px;box-shadow:var(--shadow);font-size:1.2rem;display:none}.backtop.show{display:block}
+.footer{border-top:1px solid var(--line);padding:24px 0 35px;color:var(--ink-soft);font-size:.84rem}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer strong{color:var(--brown-dark)}
+.empty-search{display:none;padding:18px;border:1px dashed var(--rust);border-radius:10px;background:var(--paper-light);margin-bottom:16px}
+@media(max-width:950px){.nav{display:none;position:absolute;top:72px;left:4%;right:4%;background:var(--paper-light);border:1px solid var(--line);border-radius:12px;padding:10px;box-shadow:var(--shadow);flex-direction:column;align-items:stretch}.nav.open{display:flex}.nav a{padding:10px}.menu-btn{display:inline-block}.header-actions .icon-btn{display:none}.layout{grid-template-columns:220px minmax(0,1fr);gap:15px}.hero-grid{gap:15px}.quick-facts{margin-bottom:28px}}
+@media(max-width:700px){.hero-grid{grid-template-columns:1fr}.hero{padding-top:28px}.hero-illustration{min-height:275px}.sunburst{width:230px;height:230px}.storybook{width:280px}.quick-facts{grid-template-columns:1fr}.fact{padding:11px}.layout{grid-template-columns:1fr}.sidebar{position:static;max-height:none}.toc{display:grid;grid-template-columns:1fr 1fr}.toc .sub{padding-left:10px}.subcard-grid,.people{grid-template-columns:1fr}.section-body{padding:0 15px 18px}.section-toggle{padding:13px}.section-title strong{font-size:1rem}.hero h1{font-size:2.65rem}.content-heading h2{font-size:1.9rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#kandungan">Langkau ke kandungan nota</a>
+<div class="progress-top" aria-hidden="true"><span id="readingProgress"></span></div>
+<header class="site-header">
+ <div class="header-inner">
+  <a class="brand" href="#utama"><span class="brand-mark" aria-hidden="true">📜</span><span class="brand-name">DIARI SEJARAH<small>CATATAN ILMU & WARISAN</small></span></a>
+  <nav class="nav" id="mainNav" aria-label="Navigasi utama">
+   <a href="#utama">Halaman Utama</a><a href="#pengenalan">Pengenalan</a><a href="#semenanjung">Semenanjung</a><a href="#sab-sar">Sabah & Sarawak</a><a href="#laporan">Laporan Pendidikan</a><a href="#tokoh">Tokoh</a><a href="#digital">Era Digital</a>
+  </nav>
+  <div class="header-actions"><button class="icon-btn" id="smaller" aria-label="Kecilkan tulisan">A−</button><button class="icon-btn" id="larger" aria-label="Besarkan tulisan">A+</button><button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">☰ Menu</button></div>
+ </div>
+</header>
+<main id="utama">
+ <section class="hero">
+  <div class="container hero-grid">
+   <div>
+    <span class="eyebrow">✦ Nota pembelajaran interaktif ✦</span>
+    <h1>Menjelajah <span>lorong masa</span></h1>
+    <p>Diari sejarah ini membawa kita menelusuri perkembangan sistem pendidikan di Malaysia — daripada zaman pemerintahan British hingga era digital. Buka setiap bab, teliti fakta dan kenali tokoh yang menyumbang kepada pendidikan negara.</p>
+    <div class="hero-buttons"><a class="btn" href="#pengenalan">📖 Buka diari</a><button class="btn secondary" id="openAll">Buka semua bab ＋</button></div>
+   </div>
+   <div class="hero-illustration" aria-label="Ilustrasi buku sejarah lama dan watak kartun">
+    <div class="sunburst"></div><div class="cartoon one" aria-hidden="true">🦉</div><div class="cartoon two" aria-hidden="true">🧒🏻</div><div class="cartoon three" aria-hidden="true">🐈</div>
+    <div class="storybook"><div class="story-doodle" aria-hidden="true">🏫 🗺️ 📚</div><h2>Sejarah Pendidikan</h2><p>Jejak ilmu, warisan dan pembinaan negara bangsa</p><span class="stamp">EDISI WARISAN</span></div>
+   </div>
+  </div>
+ </section>
+ <div class="container quick-facts">
+  <div class="fact"><span class="fact-icon">🏛️</span><div><strong>Jejak institusi pendidikan</strong><small>Semenanjung, Sabah dan Sarawak</small></div></div>
+  <div class="fact"><span class="fact-icon">📜</span><div><strong>Laporan & ordinan</strong><small>Cadangan pembaharuan pendidikan</small></div></div>
+  <div class="fact"><span class="fact-icon">🧑‍🏫</span><div><strong>Tokoh & sumbangan</strong><small>Pendidikan, masyarakat dan negara</small></div></div>
+ </div>
+ <div class="container layout">
+  <aside class="sidebar" aria-label="Isi kandungan nota">
+   <div class="sidebar-title">Indeks diari</div>
+   <div class="search-wrap"><input type="search" id="searchInput" placeholder="🔎 Cari dalam nota..." aria-label="Cari perkataan dalam nota"></div>
+   <nav class="toc" id="toc">
+    <a href="#pengenalan">✦ Pengenalan</a>
+    <a href="#matlamat">01. Matlamat dasar British</a>
+    <a href="#semenanjung">02. Semenanjung Malaysia</a>
+    <a class="sub" href="#jenis-sekolah">Jenis institusi sekolah</a>
+    <a class="sub" href="#kesan-semenanjung">Kesan pembangunan</a>
+    <a href="#sab-sar">03. Sabah & Sarawak</a>
+    <a class="sub" href="#sabah">Sabah</a>
+    <a class="sub" href="#sarawak">Sarawak</a>
+    <a href="#laporan">04. Laporan & ordinan</a>
+    <a class="sub" href="#cheeseman">Cheeseman 1946</a>
+    <a class="sub" href="#barnes">Barnes 1951</a>
+    <a class="sub" href="#fennwu">Fenn-Wu 1951</a>
+    <a class="sub" href="#ordinan">Ordinan 1952</a>
+    <a href="#tokoh">05. Tokoh pendidikan</a>
+    <a href="#digital">06. Teknologi digital</a>
+    <a href="#kesimpulan">07. Kesimpulan</a>
+   </nav>
+   <div class="sidebar-note">🪶 <strong>Tip membaca:</strong> Klik tajuk bab untuk membuka atau menutup nota. Gunakan carian untuk mencari kata kunci.</div>
+  </aside>
+  <div class="content" id="kandungan">
+   <div class="content-heading"><span class="eyebrow">Buku nota · Bab utama</span><h2>Catatan perjalanan pendidikan Malaysia</h2><p>Setiap helaian mengandungi isi penting daripada nota pembelajaran. Klik tajuk untuk meneroka kandungannya.</p></div>
+   <div class="empty-search" id="emptySearch">Tiada bahagian yang sepadan dengan carian. Cuba kata kunci lain.</div>
+
+   <section class="note-section open" id="pengenalan" data-searchable>
+    <button class="section-toggle" aria-expanded="true"><span class="section-icon">🪶</span><span class="section-title"><strong>Pengenalan</strong><small>Latar belakang sistem pendidikan di Malaysia</small></span><span class="chevron">⌄</span></button>
+    <div class="section-body"><p>Sistem pendidikan memainkan peranan penting dalam pembangunan sosial, ekonomi dan pembinaan negara bangsa di Malaysia. Pada zaman British, pendidikan berkembang melalui sekolah vernakular Melayu, Cina, Tamil dan Inggeris serta sekolah pondok yang mempunyai matlamat berbeza.</p><p>Keadaan ini mempengaruhi peluang pendidikan dan perpaduan masyarakat. Selepas merdeka, pelbagai usaha pembaharuan dilaksanakan dengan sumbangan tokoh pendidikan bagi membangunkan modal insan dan jati diri bangsa. Dalam era digital, teknologi turut membantu menyebarkan ilmu, memupuk perpaduan dan mengukuhkan identiti kebangsaan.</p></div>
+   </section>
+
+   <section class="note-section" id="matlamat" data-searchable>
+    <button class="section-toggle" aria-expanded="false"><span class="section-icon">🎯</span><span class="section-title"><strong>Matlamat Dasar Pendidikan British</strong><small>Lima tujuan utama pendidikan kolonial</small></span><span class="chevron">⌄</span></button>
+    <div class="section-body"><div class="subcard-grid">
+     <article class="subcard"><span class="tag">01 · Ekonomi</span><h4>Memenuhi keperluan ekonomi kolonial</h4><p>Melahirkan tenaga kerja untuk sektor perlombongan, pertanian dan perdagangan.</p></article>
+     <article class="subcard"><span class="tag">02 · Pentadbiran</span><h4>Memperkukuh pentadbiran kolonial</h4><p>Melatih penduduk tempatan sebagai kerani, guru dan pegawai pentadbiran.</p></article>
+     <article class="subcard"><span class="tag">03 · Politik</span><h4>Mengekalkan kestabilan politik</h4><p>Melaksanakan dasar pecah dan perintah melalui sistem pendidikan berasingan mengikut kaum.</p></article>
+     <article class="subcard"><span class="tag">04 · Sosial</span><h4>Mengekalkan struktur sosial</h4><p>Mengekalkan perbezaan kedudukan sosial dan peluang pendidikan antara kaum.</p></article>
+     <article class="subcard"><span class="tag">05 · Pendidikan</span><h4>Memperkenalkan asas pendidikan moden</h4><p>Memperkenalkan kurikulum tersusun, latihan perguruan dan sistem peperiksaan.</p></article>
+    </div></div>
+   </section>
+
+   <section class="note-section" id="semenanjung" data-searchable>
+    <button class="section-toggle" aria-expanded="false"><span class="section-icon">🏫</span><span class="section-title"><strong>Sistem Pendidikan di Semenanjung Malaysia pada Zaman British</strong><small>Institusi, bahasa pengantar dan matlamat pendidikan</small></span><span class="chevron">⌄</span></button>
+    <div class="section-body"><p>Pada zaman British, sistem pendidikan di Semenanjung Tanah Melayu berkembang melalui beberapa jenis institusi pendidikan, iaitu sekolah vernakular Melayu, Cina, Tamil dan Inggeris serta sekolah pondok sebagai institusi pendidikan Islam tradisional Melayu. Setiap institusi mempunyai bahasa pengantar, kurikulum dan matlamat pendidikan yang berbeza.</p><p>Sekolah vernakular berkembang berdasarkan keperluan masyarakat masing-masing, manakala sekolah pondok menekankan pendidikan agama Islam. Dasar pendidikan British yang tidak menyatukan sistem persekolahan telah memberikan kesan terhadap pembangunan sosial, ekonomi dan pembinaan negara bangsa.</p>
+     <h3 id="jenis-sekolah">Jenis-jenis institusi pendidikan pada zaman British</h3>
+     <div class="subcard-grid">
+      <article class="subcard"><span class="tag">01 · Melayu</span><h4>🏡 Sekolah Vernakular Melayu</h4><ul><li>Menggunakan bahasa Melayu sebagai bahasa pengantar dan kebanyakannya terletak di kawasan kampung.</li><li>Memberikan pendidikan asas seperti membaca, menulis dan mengira serta kemahiran praktikal harian.</li><li>Peluang pendidikan tinggi terhad dan pembelajaran lebih tertumpu pada keperluan masyarakat luar bandar.</li></ul></article>
+      <article class="subcard"><span class="tag">02 · Cina</span><h4>🏮 Sekolah Vernakular Cina</h4><ul><li>Menggunakan bahasa Cina sebagai bahasa pengantar dan ditubuhkan melalui usaha masyarakat serta persatuan Cina.</li><li>Kurikulumnya merangkumi bahasa, penulisan, matematik dan kebudayaan Cina dengan pengaruh pendidikan dari China.</li><li>Membantu mengekalkan bahasa, budaya dan identiti masyarakat Cina.</li></ul></article>
+      <article class="subcard"><span class="tag">03 · Tamil</span><h4>🌿 Sekolah Vernakular Tamil</h4><ul><li>Menggunakan bahasa Tamil sebagai bahasa pengantar dan kebanyakannya terletak di kawasan ladang getah untuk anak-anak pekerja India.</li><li>Memberikan pendidikan asas seperti membaca, menulis dan mengira.</li><li>Kemudahan, tenaga pengajar dan peluang pendidikan lanjutan terhad serta dipengaruhi oleh keadaan ekonomi ladang.</li></ul></article>
+      <article class="subcard"><span class="tag">04 · Inggeris</span><h4>📘 Sekolah Vernakular Inggeris</h4><ul><li>Menggunakan bahasa Inggeris sebagai bahasa pengantar dan kebanyakannya terletak di kawasan bandar.</li><li>Mengajar mata pelajaran seperti bahasa Inggeris, matematik, sains dan geografi.</li><li>Membuka peluang pendidikan lanjutan dan pekerjaan dalam bidang pentadbiran, perdagangan serta profesional.</li></ul></article>
+      <article class="subcard"><span class="tag">05 · Tradisional</span><h4>🕌 Sekolah Pondok</h4><ul><li>Berasaskan pendidikan Islam di pondok, masjid atau surau di bawah bimbingan guru agama.</li><li>Menekankan pengajian al-Quran, tauhid, fiqah, akhlak dan bahasa Arab melalui kaedah tradisional.</li><li>Melahirkan guru agama dan ulama serta memelihara nilai Islam dalam masyarakat Melayu.</li></ul></article>
+     </div>
+     <h3 id="kesan-semenanjung">Kesan sistem pendidikan terhadap pembangunan</h3>
+     <h4>A. Pembangunan sosial</h4><ul><li><strong>Kepelbagaian budaya:</strong> Sekolah berbeza mengekalkan bahasa, budaya dan agama komuniti masing-masing.</li><li><strong>Peluang pendidikan:</strong> Pengasingan sekolah dan kemudahan terhad mengurangkan interaksi kaum serta akses pendidikan.</li></ul>
+     <h4>B. Pembangunan ekonomi</h4><ul><li><strong>Peluang pekerjaan:</strong> Sekolah Inggeris melahirkan tenaga kerja untuk pentadbiran dan sektor profesional, manakala sekolah Cina menyokong perdagangan.</li><li><strong>Kemahiran masyarakat:</strong> Sekolah Melayu dan Tamil menyediakan pendidikan asas, manakala sekolah pondok melahirkan guru agama.</li></ul>
+     <h4>C. Pembinaan negara bangsa</h4><ul><li><strong>Identiti bersama:</strong> Perbezaan bahasa dan kurikulum mengehadkan interaksi serta perpaduan kaum.</li><li><strong>Pembaharuan pendidikan:</strong> Sistem pendidikan kebangsaan selepas merdeka diperkukuh untuk memupuk perpaduan dan identiti nasional.</li></ul>
+    </div>
+   </section>
+
+   <section class="note-section" id="sab-sar" data-searchable>
+    <button class="section-toggle" aria-expanded="false"><span class="section-icon">🌴</span><span class="section-title"><strong>Sistem Pendidikan Sabah dan Sarawak</strong><small>Perkembangan pendidikan di Malaysia Timur</small></span><span class="chevron">⌄</span></button>
+    <div class="section-body"><p>Sistem pendidikan di Sabah dan Sarawak berkembang mengikut pengaruh pemerintahan kolonial, mubaligh Kristian, masyarakat tempatan dan dasar kerajaan. Perkembangannya berbeza disebabkan faktor geografi, pengangkutan, taburan penduduk dan kewangan. Perubahan pendidikan sebelum dan selepas Perang Dunia Kedua serta pembentukan Malaysia turut mempengaruhi pembangunan sosial, ekonomi dan pembinaan negara bangsa.</p>
+     <h3 id="sabah">4.1 Sabah</h3><h4>A. Pendidikan di Sabah semasa pemerintahan SBUB</h4>
+     <ul><li><strong>Pemerintahan SBUB:</strong> Sabah berada di bawah pemerintahan Syarikat Berpiagam Borneo Utara British (SBUB) dari tahun 1881 hingga 1942, dengan perkembangan pendidikan yang terhad.</li><li><strong>Sekolah mubaligh:</strong> Mubaligh Kristian membuka sekolah untuk memberikan pendidikan asas dan menyebarkan agama Kristian.</li><li><strong>Sekolah Melayu:</strong> Pendidikan masyarakat Melayu dan peribumi terhad serta bergantung pada lokasi sekolah.</li><li><strong>Sekolah Cina:</strong> Masyarakat Cina menubuhkan sekolah untuk mengajar bahasa Cina dan mengekalkan budaya mereka.</li><li><strong>Bahasa pengantar:</strong> Bahasa Inggeris, Melayu dan Cina digunakan mengikut jenis sekolah.</li><li><strong>Akses pendidikan:</strong> Penduduk bandar lebih mudah mendapat pendidikan berbanding penduduk pedalaman.</li><li><strong>Matlamat pendidikan:</strong> Pendidikan belum diselaraskan dan banyak dipengaruhi oleh keperluan masyarakat serta kegiatan mubaligh.</li></ul>
+     <div class="callout"><strong>Kesan terhadap pembangunan Sabah semasa SBUB</strong><ul><li><strong>Sosial:</strong> Pendidikan asas meningkatkan pengetahuan dan kebolehan membaca dalam kalangan sebahagian masyarakat, tetapi aksesnya masih terbatas.</li><li><strong>Ekonomi:</strong> Pendidikan membantu menyediakan sebahagian tenaga kerja yang mempunyai kemahiran asas untuk pekerjaan tertentu.</li><li><strong>Negara bangsa:</strong> Kepelbagaian sekolah dan bahasa pengantar menyebabkan pengalaman pendidikan masyarakat berbeza-beza. Sistem pendidikan bersama yang menyatukan penduduk pelbagai etnik masih belum terbentuk secara menyeluruh.</li></ul></div>
+     <h4>B. Pendidikan di Sabah selepas merdeka</h4><ul><li><strong>Penyelarasan pendidikan:</strong> Selepas menyertai Malaysia pada 16 September 1963, sistem pendidikan Sabah diselaraskan secara berperingkat dengan dasar pendidikan kebangsaan.</li><li><strong>Perluasan sekolah:</strong> Pembinaan dan penambahbaikan sekolah meningkatkan akses pendidikan di kawasan luar bandar dan pedalaman.</li><li><strong>Penyelarasan kurikulum:</strong> Kurikulum dan sistem persekolahan disesuaikan dengan dasar Kementerian Pendidikan Malaysia.</li><li><strong>Bahasa Melayu:</strong> Penggunaan bahasa Melayu sebagai bahasa kebangsaan dan bahasa pengantar utama diperkukuh secara berperingkat.</li><li><strong>Peningkatan kualiti pendidikan:</strong> Latihan guru dan penyediaan bahan pembelajaran membantu meningkatkan mutu pendidikan.</li><li><strong>Cabaran geografi:</strong> Jarak perkampungan, bentuk muka bumi dan kekurangan kemudahan menyukarkan akses pendidikan di sesetengah kawasan.</li></ul>
+     <div class="callout"><strong>Kesan selepas merdeka</strong><ul><li><strong>Sosial:</strong> Lebih ramai penduduk berpeluang mendapatkan pendidikan dan meningkatkan pengetahuan.</li><li><strong>Ekonomi:</strong> Pendidikan membantu menyediakan tenaga kerja untuk sektor perkhidmatan, pentadbiran, perniagaan dan bidang profesional.</li><li><strong>Pembinaan negara bangsa:</strong> Sekolah menjadi tempat murid daripada pelbagai etnik mempelajari kurikulum kebangsaan, menguasai bahasa Melayu dan membina semangat kebersamaan sebagai rakyat Malaysia.</li></ul></div>
+     <h3 id="sarawak">4.2 Sarawak</h3><h4>A. Pendidikan di Sarawak sebelum Perang Dunia Kedua</h4><ul><li><strong>Pemerintahan Brooke:</strong> Sarawak diperintah oleh keluarga Brooke dari tahun 1841 hingga 1941, dengan pendidikan yang terhad dan tidak seimbang.</li><li><strong>Sekolah mubaligh:</strong> Mubaligh Kristian membuka sekolah, khususnya di Kuching, untuk memberikan pendidikan asas.</li><li><strong>Sekolah Melayu:</strong> Sekolah Melayu mengajar kemahiran asas, manakala pendidikan agama Islam dijalankan melalui institusi tradisional.</li><li><strong>Sekolah Cina:</strong> Masyarakat Cina menubuhkan sekolah untuk mengekalkan bahasa dan budaya mereka.</li><li><strong>Pendidikan masyarakat peribumi:</strong> Pendidikan formal di kawasan pedalaman terhad akibat masalah jarak dan pengangkutan.</li><li><strong>Bahasa pengantar:</strong> Bahasa Melayu, Cina dan Inggeris digunakan mengikut jenis sekolah.</li><li><strong>Peluang pendidikan:</strong> Penduduk bandar lebih mudah mendapat pendidikan berbanding penduduk pedalaman.</li></ul>
+     <div class="callout"><strong>Kesan terhadap pembangunan Sarawak sebelum Perang Dunia Kedua</strong><ul><li><strong>Sosial:</strong> Pendidikan membantu meningkatkan pengetahuan masyarakat, tetapi perbezaan bahasa pengantar dan jenis sekolah mengehadkan interaksi pendidikan antara komuniti.</li><li><strong>Ekonomi:</strong> Pendidikan asas membantu melahirkan sebahagian tenaga kerja untuk pekerjaan tertentu, namun peluang pendidikan lanjutan masih terhad.</li><li><strong>Pembinaan negara bangsa:</strong> Kepelbagaian institusi pendidikan mencerminkan identiti masyarakat yang berbeza. Sistem pendidikan yang menyatukan seluruh penduduk masih belum berkembang secara menyeluruh.</li></ul></div>
+     <h4>B. Pendidikan di Sarawak selepas Perang Dunia Kedua</h4><ul><li><strong>Perubahan pentadbiran:</strong> Sarawak menjadi tanah jajahan Mahkota British pada tahun 1946 selepas Perang Dunia Kedua.</li><li><strong>Pemulihan sekolah:</strong> Sekolah yang rosak akibat peperangan dipulihkan dan kemudahan pendidikan ditambah baik.</li><li><strong>Sekolah kerajaan:</strong> Pentadbiran British memperluas pendidikan formal dan peluang persekolahan.</li><li><strong>Sekolah mubaligh:</strong> Sekolah mubaligh terus menyediakan pendidikan formal dan pembelajaran bahasa Inggeris.</li><li><strong>Sekolah Cina dan Melayu:</strong> Kedua-duanya terus memenuhi keperluan pendidikan komuniti masing-masing.</li><li><strong>Peluang pendidikan:</strong> Penambahan sekolah dan latihan guru meningkatkan akses pendidikan, tetapi jurang bandar dan pedalaman masih wujud.</li><li><strong>Sistem pendidikan kebangsaan:</strong> Penyelarasan pendidikan dengan dasar kebangsaan semakin penting menjelang pembentukan Malaysia pada tahun 1963.</li></ul>
+     <div class="callout"><strong>Kesan terhadap pembangunan Sarawak selepas Perang Dunia Kedua</strong><ul><li><strong>Sosial:</strong> Pemulihan dan peluasan sekolah meningkatkan peluang masyarakat mendapatkan pendidikan serta berinteraksi melalui institusi pendidikan.</li><li><strong>Ekonomi:</strong> Pendidikan membantu menyediakan tenaga kerja yang mempunyai kemahiran asas dan membuka peluang pekerjaan dalam bidang pentadbiran, perniagaan dan perkhidmatan.</li><li><strong>Pembinaan negara bangsa:</strong> Perkembangan pendidikan selepas perang menjadi asas kepada penyelarasan sistem pendidikan apabila Sarawak menyertai Malaysia.</li></ul></div>
+     <h4>C. Pendidikan di Sarawak selepas pembentukan Malaysia</h4><ul><li><strong>Penyelarasan pendidikan:</strong> Sarawak menyertai Malaysia pada 16 September 1963 dan sistem pendidikannya diselaraskan secara berperingkat dengan dasar kebangsaan.</li><li><strong>Peluasan akses:</strong> Pembinaan sekolah dan penambahbaikan kemudahan diteruskan, termasuk di kawasan pedalaman.</li><li><strong>Pembangunan modal insan:</strong> Pendidikan melahirkan tenaga kerja berilmu dan berkemahiran untuk pembangunan negeri.</li><li><strong>Perpaduan masyarakat:</strong> Sekolah memupuk semangat perpaduan, kewarganegaraan dan identiti kebangsaan.</li><li><strong>Pemeliharaan kepelbagaian:</strong> Pendidikan membantu membina identiti kebangsaan sambil menghormati bahasa, budaya dan tradisi masyarakat Sarawak.</li></ul>
+    </div>
+   </section>
+
+   <section class="note-section" id="laporan" data-searchable>
+    <button class="section-toggle" aria-expanded="false"><span class="section-icon">📜</span><span class="section-title"><strong>Laporan dan Ordinan Pendidikan di Tanah Melayu</strong><small>Cheeseman 1946, Barnes 1951, Fenn-Wu 1951 dan Ordinan 1952</small></span><span class="chevron">⌄</span></button>
+    <div class="section-body"><p>Laporan Cheeseman 1946, Laporan Barnes 1951, Laporan Fenn-Wu 1951 dan Ordinan Pelajaran 1952 merupakan antara usaha penting dalam perkembangan sistem pendidikan di Tanah Melayu sebelum kemerdekaan. Dokumen-dokumen ini membincangkan matlamat pendidikan, bahasa pengantar, kedudukan sekolah vernakular dan usaha mewujudkan sistem pendidikan yang lebih tersusun.</p>
+     <div class="timeline">
+      <div class="timeline-item" id="cheeseman"><strong>1946 · Laporan Cheeseman</strong><p><b>Latar belakang:</b> Dikemukakan selepas Perang Dunia Kedua ketika British berusaha memulihkan sistem pendidikan di Tanah Melayu yang terjejas akibat pendudukan Jepun.</p><b>Cadangan utama</b><ul><li>Pendidikan rendah diberikan secara percuma di sekolah kerajaan.</li><li>Peluang pendidikan perlu diperluas kepada kanak-kanak lelaki dan perempuan.</li><li>Pendidikan vokasional dan teknikal perlu diberikan perhatian untuk menyediakan murid dengan kemahiran pekerjaan.</li><li>Kemudahan pendidikan perlu ditambah baik bagi membantu pemulihan sistem persekolahan.</li></ul><b>Kepentingan dan kesan</b><ul><li>Menjadi antara usaha awal untuk memulihkan pendidikan selepas perang.</li><li>Memberikan perhatian kepada peluasan peluang pendidikan dan latihan kemahiran.</li><li>Cadangannya tidak menghasilkan penyatuan menyeluruh sistem sekolah vernakular.</li></ul></div>
+      <div class="timeline-item" id="barnes"><strong>1951 · Laporan Barnes</strong><p><b>Latar belakang:</b> Disediakan oleh jawatankuasa yang dipengerusikan oleh L. J. Barnes untuk mengkaji dan mencadangkan pembaharuan pendidikan orang Melayu di Tanah Melayu.</p><b>Cadangan utama</b><ul><li>Menggantikan sistem sekolah rendah vernakular yang berasingan dengan sistem sekolah kebangsaan.</li><li>Menggunakan bahasa Melayu dan bahasa Inggeris sebagai bahasa pengantar dalam sistem sekolah yang dicadangkan.</li><li>Memberikan pendidikan rendah secara percuma.</li><li>Menambah baik latihan guru dan kemudahan sekolah.</li><li>Memberikan penekanan kepada pendidikan sivik untuk memupuk semangat kewarganegaraan.</li></ul><b>Kepentingan dan kesan</b><ul><li>Menjadi asas kepada perbincangan tentang pembentukan sistem pendidikan kebangsaan.</li><li>Menekankan peranan pendidikan dalam memupuk perpaduan kaum.</li><li>Mendapat bantahan daripada sebahagian masyarakat Cina kerana bimbang sekolah dan bahasa ibunda mereka akan terjejas.</li><li>Menimbulkan perdebatan tentang kedudukan bahasa pengantar dan masa depan sekolah vernakular.</li></ul></div>
+      <div class="timeline-item" id="fennwu"><strong>1951 · Laporan Fenn-Wu</strong><p><b>Latar belakang:</b> Disediakan oleh Dr. William P. Fenn dan Dr. Wu Teh Yao untuk meneliti pendidikan Cina di Tanah Melayu, khususnya selepas cadangan Laporan Barnes menimbulkan kebimbangan dalam kalangan masyarakat Cina.</p><b>Cadangan utama</b><ul><li>Mengekalkan sekolah Cina dan bahasa Cina sebagai bahasa pengantar.</li><li>Memperbaiki kurikulum sekolah Cina supaya lebih sesuai dengan keadaan dan kehidupan masyarakat di Tanah Melayu.</li><li>Menggalakkan penguasaan bahasa Melayu dan bahasa Inggeris selain bahasa Cina.</li><li>Meningkatkan latihan guru dan mutu pengajaran.</li><li>Menggalakkan kerjasama antara kaum melalui pendidikan tanpa menghapuskan identiti bahasa dan budaya masing-masing.</li></ul><b>Kepentingan dan kesan</b><ul><li>Mempertahankan kepentingan pendidikan bahasa ibunda masyarakat Cina.</li><li>Menunjukkan bahawa perpaduan tidak semestinya memerlukan penghapusan sekolah vernakular.</li><li>Menjadi bahan pertimbangan dalam penggubalan dasar pendidikan selepas Laporan Barnes.</li><li>Memperlihatkan perbezaan pendekatan antara penyatuan melalui sekolah kebangsaan dengan pengekalan pendidikan vernakular.</li></ul></div>
+      <div class="timeline-item" id="ordinan"><strong>1952 · Ordinan Pelajaran</strong><p><b>Latar belakang:</b> Digubal oleh pihak British sebagai usaha membentuk dasar pendidikan yang lebih teratur dengan mengambil kira cadangan Laporan Barnes dan Laporan Fenn-Wu.</p><b>Cadangan utama</b><ul><li>Memperkenalkan konsep sekolah kebangsaan dengan bahasa Melayu atau bahasa Inggeris sebagai bahasa pengantar.</li><li>Memberikan pendidikan rendah secara percuma kepada murid di sekolah rendah kerajaan.</li><li>Menggalakkan pengajaran bahasa Melayu dan bahasa Inggeris.</li><li>Memberikan ruang kepada sekolah Cina dan Tamil untuk beroperasi tertakluk pada syarat serta kemampuan kewangan dan pentadbiran.</li><li>Meningkatkan mutu pendidikan melalui latihan guru dan penambahbaikan kemudahan sekolah.</li></ul><b>Kepentingan dan kesan</b><ul><li>Menjadi langkah penting dalam usaha menggubal dasar pendidikan yang lebih menyeluruh.</li><li>Memperlihatkan usaha British untuk mencari jalan tengah antara cadangan penyatuan sekolah dengan kepentingan pendidikan vernakular.</li><li>Pelaksanaannya menghadapi masalah kekurangan kewangan, guru terlatih dan kemudahan sekolah.</li><li>Matlamat mewujudkan sistem pendidikan yang benar-benar menyatukan semua kaum masih belum tercapai.</li></ul></div>
+     </div>
+    </div>
+   </section>
+
+   <section class="note-section" id="tokoh" data-searchable>
+    <button class="section-toggle" aria-expanded="false"><span class="section-icon">🧑‍🏫</span><span class="section-title"><strong>Sumbangan Tokoh-tokoh Pendidikan</strong><small>Tokoh sebelum dan selepas kemerdekaan</small></span><span class="chevron">⌄</span></button>
+    <div class="section-body"><h3>A. Tokoh pendidikan sebelum merdeka</h3>
+     <div class="people">
+      <article class="person"><span class="avatar" aria-hidden="true">📚</span><h4>Tan Sri Dato' Dr. Awang Had Salleh</h4><p>Tokoh pendidikan dan akademik Malaysia yang terkenal dengan sumbangannya dalam bidang pendidikan, bahasa Melayu dan perkembangan institusi pengajian tinggi.</p><h4>Sumbangan sosial</h4><ul><li>Memperjuangkan pendidikan dan penggunaan bahasa Melayu bagi meluaskan akses ilmu kepada masyarakat.</li><li>Menekankan pembentukan individu yang berilmu, berdisiplin dan bertanggungjawab.</li></ul><h4>Sumbangan ekonomi</h4><ul><li>Membantu pembangunan modal insan melalui pendidikan tinggi dan bidang akademik.</li><li>Menyokong peningkatan peluang pekerjaan dan taraf hidup melalui pendidikan.</li></ul><h4>Pembinaan negara</h4><ul><li>Menyumbang kepada perkembangan pendidikan kebangsaan dan pemerkasaan bahasa Melayu sebagai bahasa ilmu.</li><li>Menekankan pendidikan sebagai asas pembentukan jati diri dan tanggungjawab terhadap negara.</li></ul></article>
+      <article class="person"><span class="avatar" aria-hidden="true">✒️</span><h4>Dato' Seri Dr. Burhanuddin al-Helmy</h4><p>Tokoh nasionalis, pendidik, ahli agama dan pemimpin politik yang memperjuangkan kemajuan masyarakat Melayu serta kemerdekaan Tanah Melayu.</p><h4>Sumbangan sosial</h4><ul><li>Menyebarkan ilmu agama dan pemikiran melalui pendidikan, penulisan dan kegiatan masyarakat.</li><li>Menggalakkan masyarakat Melayu meningkatkan ilmu pengetahuan serta nilai moral.</li></ul><h4>Sumbangan ekonomi</h4><ul><li>Menekankan kepentingan kemajuan masyarakat Melayu dalam pendidikan dan kehidupan.</li><li>Menggalakkan peningkatan ilmu dan kemahiran untuk memperbaiki taraf hidup masyarakat.</li></ul><h4>Pembinaan negara</h4><ul><li>Memperjuangkan kemerdekaan Tanah Melayu dan membangkitkan semangat kebangsaan.</li><li>Menyebarkan kesedaran politik serta kepentingan jati diri melalui penulisan dan kegiatan masyarakat.</li></ul></article>
+     </div>
+     <h3>B. Tokoh pendidikan selepas merdeka</h3><div class="people">
+      <article class="person"><span class="avatar" aria-hidden="true">🎓</span><h4>Tan Sri Dato' Seri Dr. Abdul Rahman Arshad</h4><p>Tokoh pendidikan Malaysia yang pernah memegang jawatan Ketua Pengarah Pendidikan Malaysia dan menyumbang kepada perkembangan sistem pendidikan kebangsaan.</p><h4>Sumbangan sosial</h4><ul><li>Menekankan pendidikan berkualiti bagi melahirkan masyarakat berilmu dan berakhlak.</li><li>Menyokong pembentukan sahsiah, disiplin dan perpaduan dalam kalangan murid.</li></ul><h4>Sumbangan ekonomi</h4><ul><li>Menyokong peningkatan mutu pendidikan untuk melahirkan tenaga kerja berpengetahuan dan berkemahiran.</li><li>Menekankan penguasaan ilmu sebagai asas peningkatan produktiviti dan daya saing negara.</li></ul><h4>Pembinaan negara</h4><ul><li>Membantu memperkukuh sistem pendidikan kebangsaan melalui pentadbiran pendidikan.</li><li>Menekankan bahasa Melayu, patriotisme dan tanggungjawab sebagai asas pembinaan negara.</li></ul></article>
+      <article class="person"><span class="avatar" aria-hidden="true">🌟</span><h4>Tan Sri Dato' Seri Dr. Wan Mohd Zahid Mohd Nordin</h4><p>Tokoh pendidikan Malaysia yang pernah berkhidmat sebagai Ketua Pengarah Pendidikan Malaysia dan terlibat dalam perkembangan kurikulum serta usaha meningkatkan kualiti pendidikan.</p><h4>Sumbangan sosial</h4><ul><li>Menekankan pendidikan seimbang dari segi intelek, rohani, emosi dan jasmani.</li><li>Menyokong pembentukan murid yang bersahsiah baik, berkemahiran sosial dan mampu menyesuaikan diri dengan perubahan zaman.</li></ul><h4>Sumbangan ekonomi</h4><ul><li>Menyokong pembangunan modal insan yang kreatif, berilmu dan berkemahiran.</li><li>Menekankan pendidikan yang relevan dengan perkembangan teknologi dan keperluan pekerjaan.</li></ul><h4>Pembinaan negara</h4><ul><li>Menyumbang kepada perkembangan pemikiran pendidikan dan usaha meningkatkan mutu kurikulum kebangsaan.</li><li>Menekankan patriotisme, tanggungjawab sosial dan perpaduan melalui pendidikan.</li></ul></article>
+     </div>
+    </div>
+   </section>
+
+   <section class="note-section" id="digital" data-searchable>
+    <button class="section-toggle" aria-expanded="false"><span class="section-icon">💻</span><span class="section-title"><strong>Teknologi Digital dan Pembinaan Negara Bangsa</strong><small>Peranan guru, akses ilmu, perpaduan dan cabaran digital</small></span><span class="chevron">⌄</span></button>
+    <div class="section-body"><h3>1. Bagaimanakah peranan guru dalam memperkasakan teknologi digital sebagai naratif pembinaan negara bangsa?</h3>
+     <h4>Menyebarkan ilmu sejarah negara</h4><ul><li>Menggunakan video, dokumentari dan kuiz digital untuk menerangkan sejarah kemerdekaan, Rukun Negara dan tokoh negara.</li><li>Membantu murid memahami sejarah serta menghargai perjuangan tokoh terdahulu.</li></ul>
+     <h4>Memupuk perpaduan kaum</h4><ul><li>Mengadakan projek berkumpulan secara dalam talian yang melibatkan murid pelbagai kaum.</li><li>Menggalakkan murid berkongsi budaya, bahasa dan tradisi masing-masing.</li><li>Membentuk sikap toleransi, hormat-menghormati dan kerjasama.</li></ul>
+     <h4>Mendidik murid menggunakan teknologi secara beretika</h4><ul><li>Membimbing murid menyemak kesahihan maklumat sebelum berkongsi.</li><li>Mengelakkan penyebaran berita palsu dan kandungan berunsur perkauman.</li><li>Memupuk sikap bertanggungjawab ketika menggunakan media sosial.</li></ul>
+     <h4>Membentuk jati diri dan patriotisme</h4><ul><li>Menggunakan platform digital untuk menyebarkan kandungan berkaitan identiti nasional.</li><li>Memupuk rasa cinta akan negara dan menghormati lambang kebangsaan.</li></ul>
+     <hr style="border:0;border-top:1px dashed var(--line);margin:25px 0">
+     <h3>2. Sejauh manakah teknologi digital menjadi pemangkin kepada pengesanan ilmu untuk pembinaan negara bangsa?</h3>
+     <h4>Memudahkan akses kepada ilmu pengetahuan</h4><ul><li>Murid boleh mendapatkan maklumat melalui Google Classroom, YouTube Pendidikan dan perpustakaan digital.</li><li>Meningkatkan pengetahuan tentang sejarah, budaya dan sistem pemerintahan negara.</li></ul>
+     <h4>Menyebarkan maklumat tentang kepelbagaian budaya</h4><ul><li>Video, pameran maya dan media sosial memperkenalkan adat resam serta perayaan pelbagai kaum.</li><li>Meningkatkan persefahaman dan penghargaan terhadap kepelbagaian masyarakat Malaysia.</li></ul>
+     <h4>Meningkatkan kemahiran masyarakat</h4><ul><li>Pembelajaran dalam talian membantu masyarakat mempelajari kemahiran baharu seperti komunikasi dan literasi digital.</li><li>Melahirkan tenaga kerja berkemahiran yang dapat menyumbang kepada pembangunan ekonomi negara.</li></ul>
+     <h4>Memperkukuh perpaduan dan identiti nasional</h4><ul><li>Platform digital membolehkan masyarakat berkongsi pandangan dan pengalaman.</li><li>Menyebarkan maklumat tentang Rukun Negara, sejarah kemerdekaan dan tanggungjawab sebagai rakyat Malaysia.</li></ul>
+     <h4>Cabaran penggunaan teknologi digital</h4><ul><li>Penyebaran berita palsu dan maklumat berunsur perkauman boleh menjejaskan keharmonian.</li><li>Jurang akses Internet antara bandar dengan luar bandar menyebabkan peluang mendapatkan ilmu tidak sama rata.</li><li>Literasi digital penting supaya masyarakat dapat menilai kesahihan maklumat.</li></ul>
+    </div>
+   </section>
+
+   <section class="note-section" id="kesimpulan" data-searchable>
+    <button class="section-toggle" aria-expanded="false"><span class="section-icon">🕊️</span><span class="section-title"><strong>Kesimpulan / Penutup</strong><small>Rumusan perkembangan pendidikan dan masa depan negara</small></span><span class="chevron">⌄</span></button>
+    <div class="section-body"><div class="endnote"><div class="emoji" aria-hidden="true">📚🌿</div><h3>Ilmu membina masa depan</h3><p>Kesimpulannya, perkembangan sistem pendidikan di Malaysia telah menyumbang kepada pembangunan sosial, ekonomi dan pembinaan negara bangsa. Walaupun pendidikan zaman British mempunyai kekangan dari segi peluang pendidikan dan perpaduan kaum, usaha pembaharuan selepas merdeka telah membentuk sistem pendidikan kebangsaan yang lebih tersusun. Sumbangan tokoh pendidikan dan penggunaan teknologi digital turut membantu meningkatkan kualiti pendidikan serta pembangunan modal insan. Oleh itu, kerjasama semua pihak penting untuk melahirkan generasi berilmu, berakhlak dan bersatu padu demi kemajuan negara.</p></div></div>
+   </section>
+   <div class="callout"><strong>Nota penyuntingan:</strong> Kandungan di laman ini disusun daripada nota yang diberikan. Sebelum digunakan sebagai bahan akademik akhir, semak semula fakta, ejaan nama tokoh dan butiran sejarah dengan sumber rujukan yang sahih.</div>
+  </div>
+ </div>
+</main>
+<footer class="footer"><div class="container footer-inner"><span><strong>📜 Diari Sejarah</strong> · Nota pembelajaran interaktif</span><span>Reka bentuk vintage · Mesra telefon · Boleh dikembangkan</span></div></footer>
+<button class="backtop" id="backTop" aria-label="Kembali ke atas">↑</button>
+<script>
+const sections=[...document.querySelectorAll('.note-section')];
+sections.forEach(section=>{
+ const button=section.querySelector('.section-toggle');
+ button.addEventListener('click',()=>{
+  const isOpen=section.classList.toggle('open');
+  button.setAttribute('aria-expanded',String(isOpen));
+ });
+});
+document.getElementById('openAll').addEventListener('click',()=>{
+ const allOpen=sections.every(s=>s.classList.contains('open'));
+ sections.forEach(s=>{s.classList.toggle('open',!allOpen);s.querySelector('.section-toggle').setAttribute('aria-expanded',String(!allOpen))});
+ document.getElementById('openAll').textContent=allOpen?'Buka semua bab ＋':'Tutup semua bab −';
+});
+const menuBtn=document.getElementById('menuBtn'),nav=document.getElementById('mainNav');
+menuBtn.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'✕ Tutup':'☰ Menu'});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰ Menu'}));
+let scale=1;
+function setScale(v){scale=Math.max(.88,Math.min(1.2,v));document.documentElement.style.setProperty('--font-scale',scale)}
+document.getElementById('smaller').addEventListener('click',()=>setScale(scale-.06));
+document.getElementById('larger').addEventListener('click',()=>setScale(scale+.06));
+const search=document.getElementById('searchInput'),empty=document.getElementById('emptySearch');
+search.addEventListener('input',()=>{
+ const q=search.value.trim().toLocaleLowerCase('ms');let visible=0;
+ sections.forEach(s=>{
+  const match=!q||s.innerText.toLocaleLowerCase('ms').includes(q);
+  s.style.display=match?'':'none';
+  if(match){visible++;if(q){s.classList.add('open');s.querySelector('.section-toggle').setAttribute('aria-expanded','true')}}
+ });
+ empty.style.display=visible?'none':'block';
+});
+const progress=document.getElementById('readingProgress'),backTop=document.getElementById('backTop');
+window.addEventListener('scroll',()=>{
+ const max=document.documentElement.scrollHeight-window.innerHeight;
+ progress.style.width=(max>0?(window.scrollY/max)*100:0)+'%';
+ backTop.classList.toggle('show',window.scrollY>500);
+},{passive:true});
+backTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+const tocLinks=[...document.querySelectorAll('#toc a')];
+const observer=new IntersectionObserver(entries=>{
+ entries.forEach(entry=>{if(entry.isIntersecting){tocLinks.forEach(a=>a.classList.toggle('active',a.hash==='#'+entry.target.id))}});
+},{rootMargin:'-20% 0px -65% 0px'});
+sections.forEach(s=>observer.observe(s));
+</script>
+</body>
+</html>
